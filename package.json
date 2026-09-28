@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/knituuid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Knit HTML/Markdown uuid fragments safely for docs pipelines.",
+  "bin": {
+    "knituuid": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/knituuid.git"
+  },
+  "homepage": "https://theworker02.github.io/knituuid/",
+  "keywords": [
+    "knit",
+    "uuid",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
